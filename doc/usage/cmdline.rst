@@ -17,7 +17,7 @@ This takes very little code space and offers only basic features:
 - supports environment variables (through :doc:`cmd/env`)
 - several commands on one line, separated by ';'
 - variable substitution using "... ${name} ..." syntax
-- special characters ('$', ';') can be escaped by prefixing with '\',
+- special characters ('$', ';') can be escaped by prefixing with '\\',
   for example::
 
     setenv bootcmd bootm \${address}
